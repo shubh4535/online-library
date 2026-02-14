@@ -1,0 +1,20 @@
+.book-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.book-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.book-card h3 {
+  margin: 0 0 5px 0;
+}
+
+.book-card p {
+  margin: 2px 0;
+}
