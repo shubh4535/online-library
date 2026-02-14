@@ -1,9 +1,15 @@
-import React from 'react'
+import { createSlice } from "@reduxjs/toolkit";
+import dummyBooks from "../data/dummyBooks";
 
-function booksSlice() {
-  return (
-    <div>booksSlice</div>
-  )
-}
+const booksSlice = createSlice({
+  name: "books",
+  initialState: dummyBooks,
+  reducers: {
+    addBook: (state, action) => {
+      state.unshift(action.payload);
+    },
+  },
+});
 
-export default booksSlice
+export const { addBook } = booksSlice.actions;
+export default booksSlice.reducer;
