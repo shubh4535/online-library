@@ -29,7 +29,8 @@ This project allows users to **browse books**, **search/filter**, **view book de
 
 ## 📂 Project Structure
 
-![project sructure](image.png)
+![Alt Text](assets/my-image.png)
+
 ---
 
 ## ⚙️ Installation & Setup
