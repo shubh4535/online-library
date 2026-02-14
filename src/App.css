@@ -176,4 +176,23 @@ nav a:hover {
   background-color: #0056b3;
 }
 
+.not-found {
+  padding: 50px 20px;
+}
+
+.not-found h2 {
+  font-size: 40px;
+}
+
+@media (max-width: 600px) {
+  .book-list {
+    grid-template-columns: 1fr;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
 
