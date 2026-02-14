@@ -30,6 +30,6 @@ function BookDetails() {
       <button onClick={() => navigate("/books")}>Back to Browse</button>
     </div>
   );
-}
+} 
 
 export default BookDetails;
