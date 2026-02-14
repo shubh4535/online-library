@@ -5,7 +5,7 @@ import BrowseBooks from "./pages/BrowseBooks";
 import BookDetails from "./pages/BookDetails";
 import AddBook from "./pages/AddBook";
 import NotFound from "./pages/NotFound";
-
+import "./App.css";
 function App() {
   return (
     <>
