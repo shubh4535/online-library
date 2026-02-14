@@ -29,7 +29,7 @@ This project allows users to **browse books**, **search/filter**, **view book de
 
 ## 📂 Project Structure
 
-
+![project sructure](image.png)
 ---
 
 ## ⚙️ Installation & Setup
@@ -62,5 +62,11 @@ npm run dev
 ---
 ## Author
 SHUBHAM SINGH
+
+---
+
+## GitHub Link
+
+https://github.com/shubh4535/online-library.git
 
 ---
