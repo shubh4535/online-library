@@ -29,7 +29,7 @@ This project allows users to **browse books**, **search/filter**, **view book de
 
 ## 📂 Project Structure
 
-![Alt Text](assets/my-image.png)
+assets/my-image.png
 
 ---
 
