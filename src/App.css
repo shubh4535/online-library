@@ -18,3 +18,25 @@
 .book-card p {
   margin: 2px 0;
 }
+.book-details {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.book-details h2 {
+  margin-top: 0;
+}
+
+.book-details p {
+  margin: 5px 0;
+}
+
+.book-details button {
+  margin-top: 10px;
+  padding: 6px 12px;
+  cursor: pointer;
+}
