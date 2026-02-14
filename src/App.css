@@ -40,3 +40,38 @@
   padding: 6px 12px;
   cursor: pointer;
 }
+
+.add-book {
+  max-width: 500px;
+  margin: 20px auto;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.add-book h2 {
+  text-align: center;
+}
+
+.add-book form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.add-book input,
+.add-book textarea {
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.add-book button {
+  padding: 8px 12px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
