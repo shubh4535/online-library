@@ -1,16 +1,66 @@
-# React + Vite
+# 📚 Online Library System (React + Redux)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **fully functional online library system** built with React (Vite) and Redux.  
+This project allows users to **browse books**, **search/filter**, **view book details**, and **add new books**.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Features
 
-## React Compiler
+- Browse all books dynamically  
+- Filter books by category (dynamic route `/books/:category`)  
+- Search books by title (real-time)  
+- View detailed book info (`/book/:id`)  
+- Add new books with validation  
+- 404 page for invalid routes  
+- Responsive design for mobile & desktop  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🧰 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** (Functional Components + Hooks)  
+- **Redux Toolkit** (State Management)  
+- **React Router DOM** (Routing & Dynamic URLs)  
+- **CSS** (Styling + Responsive Design)  
+- **Vite** (Project Setup / Dev Server)  
+
+---
+
+## 📂 Project Structure
+
+
+---
+
+## ⚙️ Installation & Setup
+
+1. Clone the repository:
+
+```bash
+git clone <your-repo-link>
+cd online-library
+```
+2. Install dependencies:
+```bash
+npm install
+```
+3. Start development server:
+```bash
+npm run dev
+```
+4. Open the URL shown in terminal  http://localhost:5173
+---
+
+## Future Improvements
+
+- Persist books in localStorage
+- Edit/Delete functionality for books
+- Sort by rating or author
+- Add animations & transitions
+- Deploy online (Vercel / Netlify)
+
+---
+## Author
+SHUBHAM SINGH
+
+---
